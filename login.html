@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login | Government Job Portal Gujarat</title>
+
+<meta name="description" content="Login to Government Job Portal Gujarat to apply for latest सरकारी jobs like Gram Sevak and Talati.">
+<meta name="keywords" content="login govt job portal, Gujarat jobs login, user login government jobs">
+<meta name="author" content="Government Job Portal">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Login - Government Job Portal">
+<meta property="og:description" content="Secure login to apply for Gujarat government jobs.">
+<meta property="og:type" content="website">
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    width:320px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.login-box h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.input-box{
+    margin-bottom:15px;
+}
+
+.input-box label{
+    font-weight:bold;
+    display:block;
+    margin-bottom:5px;
+}
+
+.input-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+}
+
+.input-box input:focus{
+    border-color:#8e44ad;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#8e44ad;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#732d91;
+}
+
+.signup{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h1>User Login</h1>
+
+<form action="login-process.html" method="post">
+
+<div class="input-box">
+<label for="username">Username</label>
+<input type="text" id="username" name="username" placeholder="Enter username" required>
+</div>
+
+<div class="input-box">
+<label for="password">Password</label>
+<input type="password" id="password" name="password" placeholder="Enter password" required>
+</div>
+
+<button type="submit" aria-label="Login to your account">Login</button>
+
+<div class="signup">
+<p>Don't have account? <a href="signup.html">Sign up</a></p>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
